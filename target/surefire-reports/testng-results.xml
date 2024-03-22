@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-19T16:13:32 EDT" name="Suite" finished-at="2024-03-19T16:15:05 EDT" duration-ms="93434">
+    <groups>
+      <group name="regression">
+        <method signature="TC_002_BISLogin.login()[pri:1, instance:testCases.TC_002_BISLogin@6e9175d8]" name="login" class="testCases.TC_002_BISLogin"/>
+        <method signature="TC_002_BISLogin.verifyHomepage()[pri:2, instance:testCases.TC_002_BISLogin@6e9175d8]" name="verifyHomepage" class="testCases.TC_002_BISLogin"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_003_LoginValidation.loginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" name="loginValidation" class="testCases.TC_003_LoginValidation"/>
+        <method signature="TC_002_BISLogin.logout()[pri:3, instance:testCases.TC_002_BISLogin@6e9175d8]" name="logout" class="testCases.TC_002_BISLogin"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_003_LoginValidation.loginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" name="loginValidation" class="testCases.TC_003_LoginValidation"/>
+        <method signature="TC_002_BISLogin.login()[pri:1, instance:testCases.TC_002_BISLogin@6e9175d8]" name="login" class="testCases.TC_002_BISLogin"/>
+        <method signature="TC_002_BISLogin.verifyHomepage()[pri:2, instance:testCases.TC_002_BISLogin@6e9175d8]" name="verifyHomepage" class="testCases.TC_002_BISLogin"/>
+        <method signature="TC_002_BISLogin.logout()[pri:3, instance:testCases.TC_002_BISLogin@6e9175d8]" name="logout" class="testCases.TC_002_BISLogin"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-19T16:13:32 EDT" name="Test" finished-at="2024-03-19T16:15:05 EDT" duration-ms="93434">
+      <class name="testCases.TC_002_BISLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_BISLogin@6e9175d8]" started-at="2024-03-19T16:13:32 EDT" name="setup" finished-at="2024-03-19T16:13:39 EDT" duration-ms="6837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:testCases.TC_002_BISLogin@6e9175d8]" started-at="2024-03-19T16:13:39 EDT" name="login" finished-at="2024-03-19T16:13:43 EDT" duration-ms="4407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyHomepage()[pri:2, instance:testCases.TC_002_BISLogin@6e9175d8]" started-at="2024-03-19T16:13:43 EDT" name="verifyHomepage" finished-at="2024-03-19T16:13:48 EDT" duration-ms="5068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepage -->
+        <test-method signature="logout()[pri:3, instance:testCases.TC_002_BISLogin@6e9175d8]" started-at="2024-03-19T16:13:48 EDT" name="logout" finished-at="2024-03-19T16:13:51 EDT" duration-ms="2634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:testCases.TC_002_BISLogin@6e9175d8]" started-at="2024-03-19T16:13:51 EDT" name="shutdown" finished-at="2024-03-19T16:13:51 EDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- testCases.TC_002_BISLogin -->
+      <class name="testCases.TC_003_LoginValidation">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" started-at="2024-03-19T16:13:51 EDT" name="setup" finished-at="2024-03-19T16:13:57 EDT" duration-ms="5924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" started-at="2024-03-19T16:14:02 EDT" name="loginValidation" data-provider="BIS_LoginData" finished-at="2024-03-19T16:14:16 EDT" duration-ms="14246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" started-at="2024-03-19T16:14:16 EDT" name="loginValidation" data-provider="BIS_LoginData" finished-at="2024-03-19T16:14:23 EDT" duration-ms="7540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdeployment2019@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" started-at="2024-03-19T16:14:23 EDT" name="loginValidation" data-provider="BIS_LoginData" finished-at="2024-03-19T16:14:37 EDT" duration-ms="13859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testdeployment@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DCF@122]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" started-at="2024-03-19T16:14:37 EDT" name="loginValidation" data-provider="BIS_LoginData" finished-at="2024-03-19T16:14:51 EDT" duration-ms="13966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peak@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[resr!232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" started-at="2024-03-19T16:14:51 EDT" name="loginValidation" data-provider="BIS_LoginData" finished-at="2024-03-19T16:15:05 EDT" duration-ms="13962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ece123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:testCases.TC_003_LoginValidation@69e153c5]" started-at="2024-03-19T16:15:05 EDT" name="shutdown" finished-at="2024-03-19T16:15:05 EDT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdown -->
+      </class> <!-- testCases.TC_003_LoginValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

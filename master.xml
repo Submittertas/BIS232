@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	
+	<listeners>
+		<listener class-name="utilities.ExportReportManager"></listener>
+	</listeners>
+ 
+  <test name="Test">
+	  <parameter name="browser" value="chrome"></parameter>
+	  <parameter name="os" value="Windows"></parameter>
+	  <classes>
+         <class name="testCases.TC_002_BISLogin"/> 
+         <class name="testCases.TC_003_LoginValidation"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

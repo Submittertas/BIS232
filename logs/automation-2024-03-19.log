@@ -1,0 +1,40 @@
+16:14:00.989 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:14:00.995 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:14:00.995 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:14:01.011 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.microsoft.com/office/2017/10/relationships/person
+16:14:01.136 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:14:01.136 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:14:01.136 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:14:01.168 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.microsoft.com/office/2017/10/relationships/person
+16:14:01.280 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:14:01.310 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:14:01.310 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:14:01.325 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.microsoft.com/office/2017/10/relationships/person
+16:14:01.435 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:14:01.435 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:14:01.435 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:14:01.466 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.microsoft.com/office/2017/10/relationships/person
+16:14:01.513 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:14:01.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:14:01.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:14:01.592 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.microsoft.com/office/2017/10/relationships/person
+16:14:01.608 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:14:01.608 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:14:01.608 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:14:01.733 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.microsoft.com/office/2017/10/relationships/person
+16:14:01.882 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:14:01.882 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:14:01.882 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:14:01.906 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.microsoft.com/office/2017/10/relationships/person
+16:14:02.064 [main] INFO  testCases.TC_003_LoginValidation - *** Starting Testcase*****
+16:14:02.473 [main] INFO  testCases.TC_003_LoginValidation - *** Login Page Should Display*****
+16:14:02.473 [main] INFO  testCases.TC_003_LoginValidation - *** Enter Email *****
+16:14:02.605 [main] INFO  testCases.TC_003_LoginValidation - *** Enter Password *****
+16:14:03.159 [main] INFO  testCases.TC_003_LoginValidation - *** Login Successful *****
+16:14:16.309 [main] INFO  testCases.TC_003_LoginValidation - *** Starting Testcase*****
+16:14:16.643 [main] INFO  testCases.TC_003_LoginValidation - *** Login Page Should Display*****
+16:14:16.643 [main] INFO  testCases.TC_003_LoginValidation - *** Enter Email *****
+16:14:16.779 [main] INFO  testCases.TC_003_LoginValidation - *** Enter Password *****
+16:14:18.133 [main] INFO  testCases.TC_003_LoginValidation - *** Login Successful *****
+16:14:23.849 [main] INFO  testCases.TC_003_LoginValidation - *** Starting Testcase*****
+16:14:24.012 [main] INFO  testCases.TC_003_LoginValidation - *** Login Page Should Display*****
